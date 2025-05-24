@@ -19,6 +19,10 @@ Transformação de proposições lógicas em restrições lineares.
 | Implicação com conjunção no antecedente | Se A e B, então C. | `a + b <= c + 1` |
 | Implicação com disjunção no antecedente | Se A ou B, então C. | `a <= c`, `b <= c` |
 
+## Nota
+
+As transformações foram testadas através da linguagem de programação Rust, avaliando todas as combinações possíveis das variáveis inteiras. O código foi desenvolvido para fins acadêmicos, visando demonstrar a relação entre lógica e programação inteira.
+
 ## Autor
 
 Isaac Luiz Vieira Ferreira <isaacluizvieiraferreira@id.uff.br>
